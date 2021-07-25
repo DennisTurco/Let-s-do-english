@@ -1,0 +1,248 @@
+body{
+    background-color: lightblue;
+}
+
+ul {
+  list-style-type: none;  /*serve a eliminare una cosa grafica molto brutta*/
+  padding: 0;
+  overflow: hidden; /*senza non si vedrebbe tutto l'ul*/
+  background-color: #3498db;
+  border-radius: 15px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*elimina la sottolineatura*/
+  transition: 0.8s;
+}
+
+li a:hover {
+  background-color: white;
+  color: #3498db;
+}
+
+#titolo{
+	color: white; 
+	font-family : Showcard gothic;
+	border-radius: 10px;
+	font-size: 30px;
+	padding: 10px 20px;
+}
+
+/*Cella Titolo*/
+#cellatitolo{
+    width: 100%;
+	background-color: #3498db;
+	text-align: center;
+	border-top-right-radius: 15px;
+	
+}
+
+/*Cella Logo*/
+#cellalogo{
+	background-color: #3498db;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+/*logo*/
+#logo{
+	border-radius: 15px;
+	background-color: blue;
+	margin-left: 3px;	
+}
+
+/*Sottotitolo*/
+#sottotitolo{
+	text-align: center;
+	font-family : comic sans ms;
+	color: white;
+	background-color: #3498db;
+	border-bottom-right-radius: 15px;
+}
+
+#Immagini{
+    opacity: 0.9;
+	border: 10px solid transparent;
+    padding: 1px;
+    border-image: url(https://lh3.googleusercontent.com/proxy/pAz3h316NCEHEeMIRVCfGasf3YUUIpJblyJEzPV-NKRb_kKdEatUygmZ0DypW4m52TRVHTxgwX4TYAIXeLdRwpjCMVuPAe9wK3uzbMb3sfo7WoHLmMP-0LVI) 67 stretch;
+	cursor: pointer;
+}
+#Immagini:hover{
+	opacity: 1;
+	transition: 0.3s;
+}
+
+#btn{
+	text-align: center;
+}
+
+button{
+	border: 1px solid #3498db;
+	padding: 10px 20px;
+	font-size: 40px;
+	font-family: montserrat;
+	cursor: pointer;
+	margin: 30px;
+	transition: 0.8s;
+	color: White;
+	border-radius: 15px;
+	background: #3498db;
+	opacity: 0.8;
+}
+
+button:hover{
+	background-color: white;
+    color: #3498db;
+	opacity: 1;	
+}
+
+
+
+
+
+
+/*GRAMMAR*/
+.rule{
+	background-color:white;
+	font-family : comic sans ms;
+	text-align: center;
+}
+
+.border{
+	border: 1px solid black;
+	border: 1px solid black;
+	
+}
+
+#mrule{
+	text-align:left;
+	color: black;
+	font-size: 18px;
+
+}
+
+#prule{
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+#srule{
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	color: black;
+	font-size: 18px;
+
+}
+
+th{
+	font-size: 22px;
+	padding: 15px;
+	border-spacing: 10px;
+	
+}
+
+td{
+	padding: 6px;
+}
+
+#pic{
+	border-radius: 6px;
+}
+
+#top{
+	border-top-right-radius:6px;
+	border-top-left-radius:6px;
+	color: white; 
+	font-family : Showcard gothic;
+	border-radius: 10px;
+	font-size: 30px;
+}
+
+/*sfondo*/
+.sfondo{
+	Background-color:#3498db;
+	text-align: center;
+	font-family: verdana,sans-serif;
+}
+
+
+
+/*tabelle*/
+#tab{
+	Background-color:#3498db;
+	text-align: center;
+	Border-radius: 4px;
+	font-family: verdana,sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: black;
+	transition: 0s;
+	text-decoration: underline;
+}
+
+
+
+
+
+/*menu a Tendina*/
+#myInput {
+  font-size: 12px;
+  padding: 10px 15px 10px 20px;
+}
+
+.dropdown-content {
+  display: none;    /*DA DEFAULT IL MENU è NASCOSTO */
+  position: absolute; /*DEFINIAMO LA POSIZIONE DEL NOSTRO MENU A TENDINA*/
+  margin-left: 3;
+  width: 184px;
+  margin-top: 45px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none; /*toglie le sottolineature*/
+  display: block;
+  font-family: comic sans ms;
+}
+
+/*effetto al passaggio dell'icona del mouse*/
+.dropdown a:hover {
+	background-color: #ddd;
+}
+
+/*serve a mostrare l'elenco dei topics dopo il click*/
+.show {
+	display: block;	
+}
+
+
+
+
+
+/*ESERCIZI*/
+input{
+	border-radius: 5px;
+}
+ 
